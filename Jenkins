@@ -1,0 +1,8 @@
+pipeline{
+agent any
+stages{
+stage('Verify Branch accounts-build'){
+echo $GIT_BRANCH;
+}
+}
+}
