@@ -3,7 +3,7 @@ agent any
 stages{
 stage('Verify Branch accounts-build'){
 steps{
-echo $GIT_BRANCH;
+echo 'Hello-world';
 }
 }
 }
